@@ -1,0 +1,13 @@
+.cart-item-count{
+    color:white;
+    margin:22px 0 0 -31px;
+    font-size:.7rem;
+    position: absolute;
+    font-weight: 100;
+    text-align:center;
+    width:30px;
+}
+.cart{
+    font-size:2.8rem;
+    color:#dc064f;
+}

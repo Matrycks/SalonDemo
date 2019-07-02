@@ -1,0 +1,31 @@
+footer a{
+    color:#343a40;
+    font-size:0.8em;
+}
+footer p{
+    font-size:0.8em;
+    color:#f0d8e0;
+}
+footer p a{
+    font-size:1.0em;
+}
+footer button{
+    color:white;
+    background-color:#b31868;
+    border-color: #b31868;
+}
+footer button:hover{
+    background-color:#343a40;
+    border-color: #343a40;
+}
+footer .nav-links{
+    margin:-5px 0 0 0;
+    padding:0px;
+    list-style-type:none;
+}
+.social-icon{
+    padding:0 10px 0 0;
+}
+.social-icon:hover{
+    color:#b20866;
+}

@@ -1,0 +1,27 @@
+<div class="container" style="padding:23px 0 0 0">
+    <hr style="border:1px solid #de2851;padding:0px;margin:0px"/>
+    <div class="col-sm-2 mx-auto text-center" style="font-size:.8em;margin-top:0px;background-color:#de2851;color:#fff">
+        VIEW ALL BRANDS
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <ul class="product-list">
+                <li *ngFor="let product of products">
+                    <div class="card">
+                        <img class="card-img-top" src="{{product.imgUrl}}" alt="{{product.title}}">
+                        <ul class="list-group list-group-flush">
+                        <li class="list-group-item title">{{product.title}}</li>
+                        <li class="list-group-item">
+                            <fa name="gratipay" class="list-icon"></fa>${{product.price}}
+                        </li>
+                        <li class="list-group-item">
+                            <button (click)="addToCart(product)"><fa name="shopping-cart" class="list-icon"></fa>Add to cart</button>
+                        </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="messageDiv"></div>
+    </div>
+</div>

@@ -1,0 +1,40 @@
+.main-banner{
+    background-image: url('http://urbanbushbabes.com/wp-content/uploads/2013/08/2.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-banner .banner-content{
+    width:50%;
+    float:left;
+}
+.main-banner .banner-content h2{
+    font-weight: 300;
+}
+
+.banner3{
+    width:100%;
+    height:100%;
+    background-image: url('https://styleabby.com/uploads/wallpaper-hd-is-kerastase-good-for-black-hair-of-androids-high-resolution-best-afro-hair-care-products-uk.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-content{
+    color:white;
+    padding:20px;
+}
+.social-icon{
+    padding:0 10px;
+}
+.social-icon:hover{
+    color:#dc064f;
+}
+
+@media only screen and (max-width: 600px) {
+    .banner3 h5{
+        padding:8px 12px;
+    }
+}

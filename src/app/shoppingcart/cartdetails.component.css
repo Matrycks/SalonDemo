@@ -1,0 +1,10 @@
+.img-thumbnail{
+    width:5rem;
+    height:5rem;
+}
+.btn-delete{
+    font-size:.7rem;
+}
+.price{
+    color:red;
+}

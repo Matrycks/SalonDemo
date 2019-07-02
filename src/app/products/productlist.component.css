@@ -1,0 +1,72 @@
+ul{
+    margin:0px;
+    padding:0px;
+    list-style-type:none;
+}
+
+.product-list{
+    margin-top:8px;
+}
+.product-list li{
+    float:left;
+    width:auto;
+    margin:3px 3px 12px 3px;
+}
+
+.card{
+    width: 13.8rem;
+}
+.card .card-img-top{
+    height:14rem;
+}
+.card .title{
+    height:3rem;
+}
+.card ul{
+    font-size:.6em;
+    color:#555;
+}
+.card ul li{
+    text-align: center;
+    margin:0 0 -1px 0;
+}
+.card1 ul li:first-child{
+    border:none;
+}
+.card ul li:last-child{
+    margin:0 0 1px 0;
+}
+.card-img-top1{
+    height:17.5rem;
+}
+
+.social-icon{
+    padding:0 10px;
+}
+.list-icon{
+    color:#dd1c50;
+    font-size:1.3em;
+    margin-right:5px;
+}
+
+.messageDiv{
+    position: absolute;
+    right:0px;
+    width:auto;
+}
+.alert{
+    width:auto;
+    display:hidden;
+    position: relative;
+    margin-right:10px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .product-list{
+        padding:0 26px;
+    }
+    .card{
+        width: 20.8rem;
+    }
+}
